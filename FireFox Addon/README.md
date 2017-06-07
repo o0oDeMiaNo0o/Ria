@@ -1,4 +1,4 @@
-# Addon Firefox
+# Firefox-Addon
 
 Este complemento extraerá la información del usuario de su cuenta de Google y muestra un saludo con su nombre en una notificación del navegador.
 

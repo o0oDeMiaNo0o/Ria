@@ -4,9 +4,6 @@ function notifyUser(user) {
     "title": "Laboratorio de RIA",
     "message": `Hola ${user.name}`
   });
-   browser.tabs.create({
-     "url": "https://ria-demianpizzo.c9users.io/GoogleLogin.php"
-   });
 }
 
 function logError(error) {
@@ -20,8 +17,7 @@ When the button's clicked:
 - show a notification containing some of it
 */
 browser.browserAction.onClicked.addListener(() => {
-  getAccessToken()
-    .then(getUserInfo)
-    .then(notifyUser)
-    .catch(logError);
+   browser.tabs.create({
+     "url": "https://ria-demianpizzo.c9users.io/GoogleLogin.php"
+   });
 });

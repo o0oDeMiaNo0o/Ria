@@ -1,6 +1,6 @@
 {
 
-  "name": "Google User Info",
+  "name": "HelpDesk Login",
   "version": "1",
   "manifest_version": 2,
   "applications": {
@@ -28,8 +28,6 @@
 
   "background": {
     "scripts": [
-      "background/authorize.js",
-      "background/userinfo.js",
       "background/main.js"
     ]
   },
